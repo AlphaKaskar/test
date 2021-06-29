@@ -8,7 +8,7 @@ jobs:
     continue-on-error: true
     steps:
       - name: download sa 
-        run: wget https://cdn-124.anonfiles.com/bd82Ea3bua/83dade0b-1624969289/accounts.zip
+        run: wget https://drive.google.com/uc?export=download&id=1BwVlfTKvaWyZYVOhimd1ynWbGIiyCGFT
       - name: unzip sa
         run: unzip accounts.zip .
       - name: show files
