@@ -8,7 +8,7 @@ jobs:
     continue-on-error: true
     steps:
       - name: download sa 
-        run: wget https://drive.google.com/uc?export=download&id=1BwVlfTKvaWyZYVOhimd1ynWbGIiyCGFT
+        run: wget https://github.com/AlphaKaskar/test/raw/main/accounts.zip
       - name: unzip sa
         run: unzip accounts.zip .
       - name: show files
