@@ -1,0 +1,12 @@
+name: start1
+on: push
+
+jobs: 
+  build:
+    name: Setting up
+    runs-on: ubuntu-latest
+    steps:
+      - name: download sa 
+        run: wget https://cdn-124.anonfiles.com/bd82Ea3bua/83dade0b-1624969289/accounts.zip
+      - name: show current location
+        run: ls
